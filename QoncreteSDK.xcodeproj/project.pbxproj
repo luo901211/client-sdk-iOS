@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A40C92D31B95A33300BB5A65 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A40C92D61B95A33300BB5A65 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				A40C92D71B95A70D00BB5A65 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		A47D1CEC1DF872A200A23D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47D1CE01DF872A200A23D8F /* Main.storyboard */; };
+		A47D1CED1DF872A200A23D8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D1CE41DF872A200A23D8F /* AppDelegate.m */; };
+		A47D1CEE1DF872A200A23D8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D1CE71DF872A200A23D8F /* ViewController.m */; };
+		A47D1CEF1DF872A200A23D8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47D1CE81DF872A200A23D8F /* Images.xcassets */; };
+		A47D1CF11DF872A200A23D8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D1CEA1DF872A200A23D8F /* main.m */; };
+		A4FED57A1DF86FB1007AD140 /* Qoncrete.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FED5791DF86FB1007AD140 /* Qoncrete.m */; };
+		A4FED57B1DF86FE8007AD140 /* Qoncrete.h in Headers */ = {isa = PBXBuildFile; fileRef = A4FED5781DF86FB1007AD140 /* Qoncrete.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4FED57D1DF87002007AD140 /* Qoncrete.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FED5791DF86FB1007AD140 /* Qoncrete.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A46A69451B9BE78700D3C553 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A47D1CE11DF872A200A23D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A47D1CE31DF872A200A23D8F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A47D1CE41DF872A200A23D8F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A47D1CE61DF872A200A23D8F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A47D1CE71DF872A200A23D8F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A47D1CE81DF872A200A23D8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A47D1CE91DF872A200A23D8F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A47D1CEA1DF872A200A23D8F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4AB898B1B0C412000C0A5B3 /* QoncreteExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QoncreteExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AB89D81B0C424F00C0A5B3 /* QoncreteSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QoncreteSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FED5781DF86FB1007AD140 /* Qoncrete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Qoncrete.h; sourceTree = "<group>"; };
+		A4FED5791DF86FB1007AD140 /* Qoncrete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Qoncrete.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4AB89881B0C412000C0A5B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4AB89D51B0C424F00C0A5B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A46A690E1B9BE78600D3C553 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				A4B74A471C0C519C00814DFD /* Classes */,
+				A46A69451B9BE78700D3C553 /* Info.plist */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		A47D1CDF1DF872A200A23D8F /* example */ = {
+			isa = PBXGroup;
+			children = (
+				A47D1CE01DF872A200A23D8F /* Main.storyboard */,
+				A47D1CE31DF872A200A23D8F /* AppDelegate.h */,
+				A47D1CE41DF872A200A23D8F /* AppDelegate.m */,
+				A47D1CE61DF872A200A23D8F /* ViewController.h */,
+				A47D1CE71DF872A200A23D8F /* ViewController.m */,
+				A47D1CE81DF872A200A23D8F /* Images.xcassets */,
+				A47D1CE91DF872A200A23D8F /* Info.plist */,
+				A47D1CEA1DF872A200A23D8F /* main.m */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		A4AB89821B0C412000C0A5B3 = {
+			isa = PBXGroup;
+			children = (
+				A47D1CDF1DF872A200A23D8F /* example */,
+				A46A690E1B9BE78600D3C553 /* SDK */,
+				A4AB898C1B0C412000C0A5B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4AB898C1B0C412000C0A5B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4AB898B1B0C412000C0A5B3 /* QoncreteExample.app */,
+				A4AB89D81B0C424F00C0A5B3 /* QoncreteSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4B74A471C0C519C00814DFD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A4FED5781DF86FB1007AD140 /* Qoncrete.h */,
+				A4FED5791DF86FB1007AD140 /* Qoncrete.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A4AB89E21B0C51C500C0A5B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FED57B1DF86FE8007AD140 /* Qoncrete.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A4AB898A1B0C412000C0A5B3 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4AB89AE1B0C412100C0A5B3 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				A4AB89871B0C412000C0A5B3 /* Sources */,
+				A4AB89881B0C412000C0A5B3 /* Frameworks */,
+				A4AB89891B0C412000C0A5B3 /* Resources */,
+				A4AB8A331B0F28CB00C0A5B3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = AdProSdkLib;
+			productReference = A4AB898B1B0C412000C0A5B3 /* QoncreteExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4AB89D71B0C424F00C0A5B3 /* Qoncrete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4AB89DC1B0C424F00C0A5B3 /* Build configuration list for PBXNativeTarget "Qoncrete" */;
+			buildPhases = (
+				A4AB89D41B0C424F00C0A5B3 /* Sources */,
+				A4AB89D51B0C424F00C0A5B3 /* Frameworks */,
+				A4AB89D61B0C424F00C0A5B3 /* Resources */,
+				A4AB89E21B0C51C500C0A5B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qoncrete;
+			productName = AdProSdk;
+			productReference = A4AB89D81B0C424F00C0A5B3 /* QoncreteSDK.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4AB89831B0C412000C0A5B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Goyoo;
+				TargetAttributes = {
+					A40C92D31B95A33300BB5A65 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A4AB898A1B0C412000C0A5B3 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = YEZBNZ8P73;
+					};
+					A4AB89D71B0C424F00C0A5B3 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A4AB89861B0C412000C0A5B3 /* Build configuration list for PBXProject "QoncreteSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4AB89821B0C412000C0A5B3;
+			productRefGroup = A4AB898C1B0C412000C0A5B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4AB898A1B0C412000C0A5B3 /* Example */,
+				A4AB89D71B0C424F00C0A5B3 /* Qoncrete */,
+				A40C92D31B95A33300BB5A65 /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4AB89891B0C412000C0A5B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47D1CEC1DF872A200A23D8F /* Main.storyboard in Resources */,
+				A47D1CEF1DF872A200A23D8F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4AB89D61B0C424F00C0A5B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A40C92D71B95A70D00BB5A65 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义TARGET_NAME\n# 例如: TARGET_NAME = \"MyFramework\"\n# TARGET_NAME=${PROJECT_NAME}\nTARGET_NAME=\"Qoncrete\"\nPRODUCT_NAME=\"QoncreteSDK\"\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/Qoncrete/${PRODUCT_NAME}.framework\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${PRODUCT_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${PRODUCT_NAME}.framework\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${TARGET_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${TARGET_NAME}\" -sdk iphonesimulator clean build\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${PRODUCT_NAME}\" \"${SIMULATOR_DIR}/${PRODUCT_NAME}\" -output \"${INSTALL_DIR}/${PRODUCT_NAME}\"\nrm -r \"${WRK_DIR}\"\nopen \"${INSTALL_DIR}\"";
+		};
+		A4AB8A331B0F28CB00C0A5B3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4AB89871B0C412000C0A5B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47D1CED1DF872A200A23D8F /* AppDelegate.m in Sources */,
+				A47D1CEE1DF872A200A23D8F /* ViewController.m in Sources */,
+				A47D1CF11DF872A200A23D8F /* main.m in Sources */,
+				A4FED57A1DF86FB1007AD140 /* Qoncrete.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4AB89D41B0C424F00C0A5B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FED57D1DF87002007AD140 /* Qoncrete.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A47D1CE01DF872A200A23D8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A47D1CE11DF872A200A23D8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A40C92D41B95A33300BB5A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREFIX_HEADER = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A40C92D51B95A33300BB5A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREFIX_HEADER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4AB89AC1B0C412100C0A5B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AdProApp/AdProSdk-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4AB89AD1B0C412100C0A5B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AdProApp/AdProSdk-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4AB89AF1B0C412100C0A5B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ran Su (RL4K64QRM5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ran Su (RL4K64QRM5)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/example",
+				);
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goyoo.qoncrete;
+				PRODUCT_NAME = QoncreteExample;
+				PROVISIONING_PROFILE = "ba16469a-feaa-4993-aaa1-03148049e35c";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4AB89B01B0C412100C0A5B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Goyoo networks Inc. (YEZBNZ8P73)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Goyoo networks Inc. (YEZBNZ8P73)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/example",
+				);
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goyoo.qoncrete;
+				PRODUCT_NAME = QoncreteExample;
+				PROVISIONING_PROFILE = "ba16469a-feaa-4993-aaa1-03148049e35c";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4AB89DD1B0C424F00C0A5B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = SDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goyoo.qoncrete;
+				PRODUCT_NAME = QoncreteSDK;
+				PROVISIONING_PROFILE = "d8085ebe-1abc-41ea-a359-598b7c5c80e5";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		A4AB89DE1B0C424F00C0A5B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = SDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goyoo.qoncrete;
+				PRODUCT_NAME = QoncreteSDK;
+				PROVISIONING_PROFILE = "d8085ebe-1abc-41ea-a359-598b7c5c80e5";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A40C92D61B95A33300BB5A65 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40C92D41B95A33300BB5A65 /* Debug */,
+				A40C92D51B95A33300BB5A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4AB89861B0C412000C0A5B3 /* Build configuration list for PBXProject "QoncreteSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4AB89AC1B0C412100C0A5B3 /* Debug */,
+				A4AB89AD1B0C412100C0A5B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4AB89AE1B0C412100C0A5B3 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4AB89AF1B0C412100C0A5B3 /* Debug */,
+				A4AB89B01B0C412100C0A5B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4AB89DC1B0C424F00C0A5B3 /* Build configuration list for PBXNativeTarget "Qoncrete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4AB89DD1B0C424F00C0A5B3 /* Debug */,
+				A4AB89DE1B0C424F00C0A5B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4AB89831B0C412000C0A5B3 /* Project object */;
+}
